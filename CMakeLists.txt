@@ -85,6 +85,8 @@ if (NOT DEFINED CMAKE_OPTIMIZE_DEPENDENCIES)
   set(CMAKE_OPTIMIZE_DEPENDENCIES TRUE)
 endif()
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 #=============================
 # Configurable options
 #=============================
